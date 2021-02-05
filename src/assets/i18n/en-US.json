@@ -1,0 +1,120 @@
+{
+  "locale": "en-us",
+  "header": {
+    "nav": {
+      "theme": ["Dark", "Light"],
+      "select": {
+        "language": ["English", "Español"]
+      },
+      "button": "Schedule an appointment"
+    },
+    "title": "This is the sign you were looking for.",
+    "subTitle": "We are the digital consultancy focused on the growth of your sales through advanced digital tools.",
+    "button": "CONTACT US"
+  },
+
+  "us": {
+    "weAre": "At ingeniería digital we are:",
+    "title1": "Experimented",
+    "title2": "Efective",
+    "title3": "Committed",
+    "subTitle1": "Our team of partners is experienced and highly specialized in each of its branches. This allows you to have complete mastery of the tools to face any challenge and go beyond expectations.",
+    "subTitle2": "We align and focus all efforts in a single direction, to have a fast and scalable execution. We have the knowledge, technology and experience in digital development that will make your business grow.",
+    "subTitle3": "We are never satisfied with the result, we seek to go further and exceed the goals. We know that customers see problems as far as their knowledge reaches, we offer solutions to problems that they had not even seen."
+  },
+
+  "process": {
+    "title": [
+      "Strategic plan",
+      "UI/UX Design",
+      "Digital Marketing ",
+      "Analysis and improvement"
+    ],
+    "start": "Start",
+    "close": "Close",
+    "toReturn": "To return",
+    "btnInfo": "More Info",
+    "services": "Our Services",
+    "descriptionPlan": "Without a plan, companies have no direction and decide as they go, everyone needs to know where they are currently and where they want to go. It requires many experts and many hours of thought to get the best possible plan, it can be modified along the way but this guide is necessary to be efficient with money and time.",
+    "listPlan": [
+      "Consulting workshop",
+      "Life time value",
+      "Customer acquisition cost",
+      "Buyer person",
+      "Sales funnel",
+      "Call to action",
+      "Key experiments",
+      "Process digitization",
+      "Analysis of data",
+      "Key metrics",
+      "Strategy audit",
+      "Constant monitoring",
+      "Profile improvement",
+      "CRM configuration",
+      "Digital strategy"
+    ],
+    "descriptionDesign": [
+      "User experience is the set of elements related to user interaction with an environment resulting in a positive perception of the product.",
+      "We use the best tools, together with an ever-improving methodology, to obtain the best results."
+    ],
+    "listDesign": [
+      "Wiraframes",
+      "Mockups",
+      "Websites",
+      "Aplicaciones",
+      "Web platforms",
+      "Social design",
+      "Branding",
+      "Interaction workshop",
+      "Design consulting",
+      "Rapid design tests",
+      "General digital design",
+      "UX audit",
+      "UI Audit",
+      "Web architectures",
+      "Videos",
+      "Animations",
+      "Editorial",
+      "Brochures",
+      "Ads"
+    ],
+    "descriptionMarketing": "The more time progresses, the more precise tools we have to reach the perfect customer for whom your products or services could benefit. It is very important that the entire strategy is aligned to the correct objectives and is measurable in order to improve it later.",
+    "listMarketing": [
+      "Communication analysis",
+      "Sentiment analysis",
+      "Goal alignment",
+      "CTA web y App",
+      "Likedin ads",
+      "Instagram growth",
+      "Facebook ads",
+      "Posicionamiento de marca",
+      "Gogle ads",
+      "Youtube",
+      "Mailing Apollo - B2B",
+      "Experimentación extrema",
+      "Marketing de influencers",
+      "Automatización correos",
+      "Gestión públicos dinámicos"
+    ],
+    "descriptionAnalysis": "We have a history of each client where we document the best practices to improve in each future iteration, there are no bad results if you learn from them, good results indicate the right path.",
+    "listAnalysis": [
+      "Tracking code review",
+      "Metric analysis",
+      "Strategic adjustments",
+      "Learning journal",
+      "Periodic audit",
+      "Business Dashboard",
+      "Metric alarms",
+      "Custom reports",
+      "Thinking outside the box",
+      "Digital architecture"
+    ],
+    "btnQuote": "Quote"
+  },
+
+  "video": {
+    "title": "Our process",
+
+    "text": "The needs of your business are unique, our solutions too. We are a group of digital experts, constantly improving, lovers of challenges and with an attitude towards solving problems without equal."
+  }
+}

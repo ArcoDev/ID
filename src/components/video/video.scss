@@ -1,0 +1,72 @@
+@import "./../vars.scss";
+
+.video-section {
+    position: relative;
+    z-index: 10;
+    transition: all 1s ease-in-out;
+    [data-theme="dark"] & {
+        background: #282f4a;
+        color: #fff;
+    }
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        background-image: url("./../../assets/img/vectorFondo.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.06;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        [data-theme="dark"] & {
+            opacity: 0.3;
+        }
+    }
+    .video-container {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+        padding: 120px 0;
+    }
+    .video-text-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+        .video-title {
+            font-family: Product;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            letter-spacing: 0.03em;
+            color: #2a2fa9;
+            [data-theme="dark"] & {
+                color: #fff;
+            }
+        }
+        .video-subTitle {
+            font-family: $roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            letter-spacing: 0.03em;
+            color: #263238;
+            width: 55%;
+            text-align: center;
+            padding-top: 25px;
+            padding-bottom: 45px;
+            [data-theme="dark"] & {
+                color: #fff;
+            }
+        }
+    }
+}

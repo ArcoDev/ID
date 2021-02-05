@@ -1,0 +1,16 @@
+button.rounded-btn {
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    transition: all 0.2s ease-in-out;
+    font-family: product;
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.03);
+    }
+    &.gradient-btn {
+        background: linear-gradient(270deg, #77216b 17.46%, #2a2fa9 76.78%);
+        color: #fff;
+        padding: 13px 20px;
+    }
+}

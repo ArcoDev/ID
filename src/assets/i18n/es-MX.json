@@ -1,0 +1,120 @@
+{
+  "locale": "en-mx",
+  "header": {
+    "nav": {
+      "theme": ["Oscuro", "Claro"],
+      "select": {
+        "language": ["English", "Español"]
+      },
+      "button": "Pide una reunion"
+    },
+    "title": "Esta es la señal que estabas buscando.",
+    "subTitle": "Somos la consultora digital enfoca en el crecimiento de tus ventas mediante herramientas digitales avanzadas.",
+    "button": "CONTÁCTANOS"
+  },
+
+  "us": {
+    "weAre": "En ingeniería digital somos:",
+    "title1": "Experimentados",
+    "title2": "Efectivos",
+    "title3": "Comprometidos",
+    "subTitle1": "Nuestro equipo de aliados es experimentado y altamente especializado en cada una de sus ramas. Eso permite tener completo dominio de las herramientas para enfrentarse a cualquier reto e ir más allá de las expectativas.",
+    "subTitle2": "Alineamos y enfocamos todos los esfuerzos en una sola dirección, para tener una ejecución rápida y escalable. Tenemos el conocimiento, la tecnología y la experiencia en desarrollo digital que hará crecer tu negocio.",
+    "subTitle3": "Nunca estamos satisfechos con el resultado, buscamos ir más allá y exceder las metas. Sabemos que los clientes ven los problemas hasta donde su conocimiento llega, nosotros ofrecemos soluciones a problemas que ni siquiera los habían visto."
+  },
+
+  "process": {
+    "title": [
+      "Plan estratégico",
+      "Diseño UI/UX",
+      "Marketing digital",
+      "Análisis y mejora"
+    ],
+    "start": "Inicio",
+    "close": "Cerrar",
+    "toReturn": "Regresar",
+    "btnInfo": "Conoce más",
+    "services": "Nuestros servicios",
+    "descriptionPlan": "Sin un plan las empresas no tienen rumbo y van decidiendo sobre la marcha, todos necesitan saber donde estan actualmente y a donde quieren llegar. Requiere muchos expertos y muchas horas de pensamiento sacar el mejor el plan posible, se puede modificar en el camino pero esta guía es necesaria para ser eficientes con el dinero y tiempo.",
+    "listPlan": [
+      "Taller de consultoria",
+      "Life time value",
+      "Costo de adquisición de clientes",
+      "Buyer persona",
+      "Funnel de ventas",
+      "Call to action",
+      "Experimentos claves",
+      "Digitalización de procesos",
+      "Análisis de datos",
+      "Métricas claves",
+      "Auditoría de estrategias",
+      "Monitoreo constante",
+      "Mejora de perfiles",
+      "Configuracion CRM",
+      "Estrategia digital"
+    ],
+    "descriptionDesign": [
+      "La experiencia de usuario es el conjunto de elementos relativos a la interacción del usuario con un entorno dando como resultado una percepción positiva del producto.",
+      "Usamos las mejores herramientas, junto con una metodología en contante mejora, para obtener los mejores resultados."
+    ],
+    "listDesign": [
+      "Wiraframes",
+      "Mockups",
+      "Página web",
+      "Aplicaciones",
+      "Plataformas web",
+      "Diseño social",
+      "Branding",
+      "Taller de interacción",
+      "Consultoría de diseño",
+      "Pruebas rápidas de diseño",
+      "Diseño digital general",
+      "Auditoría UX",
+      "Auditoría UI",
+      "Arquitecturas web",
+      "Videos",
+      "Animaciones",
+      "Editorial",
+      "Brochures",
+      "Ads"
+    ],
+    "descriptionMarketing": "Entre más avanza el tiempo tenemos herramientas más precisas para llegar al cliente perfecto al que tus productos ó servicios le podrían causar un beneficio. Es muy importante que toda la estrategia este alineada a los objetivos correctos y sea medible para luego poder mejorarla.",
+    "listMarketing": [
+      "Análisis de comunicación",
+      "Análisis de sentimientos",
+      "Alineación de objetivos",
+      "CTA web y App",
+      "Likedin ads",
+      "Crecimiento Instagram",
+      "Facebook ads",
+      "Posicionamiento de marca",
+      "Gogle ads",
+      "Youtube",
+      "Mailing Apollo - B2B",
+      "Experimentación extrema",
+      "Marketing de influencers",
+      "Automatización correos",
+      "Gestión públicos dinámicos"
+    ],
+    "descriptionAnalysis": "Contamos con un historial de cada cliente donde documentamos las mejores practicas para mejorar en cada iteración futura, no hay malos resultados si se aprende de ellos, los buenos resultados indican el camino correcto.",
+    "listAnalysis": [
+      "Revisión códigos seguimiento",
+      "Análisis métricas",
+      "Ajustes estratégicos",
+      "Diario de aprendizaje",
+      "Auditoria periódica",
+      "Panel de negocios",
+      "Alarmas de métricas",
+      "Reportes personalizados",
+      "Pensamiento fuera de la caja",
+      "Arquitectura digital"
+    ],
+    "btnQuote": "Cotizar"
+  },
+
+  "video": {
+    "title": "Nuestro proceso",
+
+    "text": "Las necesidades de tu negocio son únicas, nuestras soluciones también. Somos un grupo de expertos digitales, en constante mejora, amantes de los retos y con una actitud hacía solucionar problemas sin igual."
+  }
+}

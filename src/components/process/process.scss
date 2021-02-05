@@ -1,0 +1,569 @@
+@import "../vars.scss";
+
+@mixin acomodo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin sizeIcons {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease-in-out;
+}
+$movil: 757px;
+.container-process {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+  @media screen and (max-width: $movil) {
+    & {
+      overflow: unset;
+      display: block;
+    }
+  }
+  .process {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 25%;
+    height: 100%;
+    transition: all 1s ease-in-out;
+    @media screen and (max-width: $movil) {
+      & {
+        width: 100%;
+        height: 25%;
+        transition: all 0.7s ease-in;
+      }
+    }
+    &.full {
+      z-index: 100;
+      width: 100%;
+      @media screen and (max-width: $movil) {
+        & {
+          height: 1200px;
+        }
+      }
+      .process-content {
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+        visibility: visible;
+      }
+
+      .inital-display {
+        opacity: 0;
+        transform: translateX(-100%);
+      }
+    }
+    &.empty {
+      width: 0;
+      visibility: hidden;
+      @media screen and (max-width: $movil) {
+        & {
+          height: 0;
+        }
+      }
+    }
+    &.estrategico {
+      background-color: #2a2fab;
+    }
+    &.diseno {
+      background: #432a95;
+    }
+    &.marketing {
+      background: #682477;
+    }
+    &.analisis {
+      background: #77216b;
+    }
+
+    .inital-display {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: fit-content;
+      font-family: Product;
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      transition: opacity 0.4s ease-out, transform 2s ease;
+      margin-top: -100px;
+      @media screen and (max-width: $movil) {
+        & {
+          flex-direction: row;
+          width: 90%;
+          justify-content: space-between;
+          margin-top: 0;
+        }
+        .imgMov {
+          width: 48px;
+          height: 48px;
+        }
+      }
+      button {
+        width: 180px;
+        font-family: inherit;
+        font-weight: inherit;
+        font-size: 16px;
+        color: #77216b;
+        @media screen and (max-width: $movil) {
+          & {
+            display: none;
+          }
+        }
+      }
+      div {
+        margin: 25px auto;
+        font-size: 1.3rem;
+        display: flex;
+        .fa-chevron-down {
+          display: none;
+        }
+        @media screen and (max-width: $movil) {
+          & {
+            margin: 0;
+            font-size: 1rem;
+          }
+          .fa-chevron-down {
+            display: block;
+            padding: 3px 0 0 10px;
+          }
+        }
+      }
+      .arrowCircle {
+        z-index: 100;
+        margin-left: 340px;
+        margin-top: -150px;
+        @media screen and (max-width: $movil) {
+          & {
+            display: none;
+          }
+        }
+      }
+      .analisis {
+        margin-top: 42px;
+        @media screen and (max-width: $movil) {
+          margin-top: 0;
+        }
+      }
+    }
+
+    .process-content {
+      display: flex;
+      position: absolute;
+      opacity: 0;
+      width: 0;
+      transition: all 1s ease-in-out;
+      visibility: hidden;
+      overflow-y: hidden;
+      overflow-x: hidden;
+      @media screen and (max-width: $movil) {
+        & {
+          flex-direction: column;
+        }
+      }
+      .column-1 {
+        width: 15%;
+        display: flex;
+        align-items: center;
+        padding-top: 15px;
+        //border: 3px solid red;
+        @media screen and (max-width: $movil) {
+          & {
+            justify-content: flex-end;
+            width: 100%;
+            margin-left: -10px;
+            margin-top: 5px;
+            position: relative;
+          }
+        }
+        .regresar {
+          display: flex;
+          cursor: pointer;
+          .txtMov {
+            display: none;
+          }
+          .fa-chevron-right {
+            display: none;
+          }
+          @media screen and(max-width: $movil) {
+            .leftMov {
+              display: none;
+            }
+            .fa-chevron-right {
+              display: block;
+              margin-top: 7px;
+              font-size: 2.2rem;
+            }
+            .txtMov {
+              display: block;
+            }
+            .txtOrg {
+              display: none;
+            }
+          }
+          img {
+            width: 40px;
+          }
+          h4 {
+            padding: 1px 5px;
+            /*  margin-top: 235px; */
+            @media screen and (max-width: $movil) {
+              & {
+                margin-top: 15px;
+              }
+            }
+          }
+        }
+      }
+      .column-2 {
+        width: 35%;
+        //border: 3px solid yellow;
+        @media screen and (max-width: $movil) {
+          & {
+            width: 100%;
+            display: block;
+            padding-top: 50px;
+          }
+        }
+        .titlePlan {
+          display: flex;
+          padding-top: 50px;
+          @media screen and (max-width: $movil) {
+            & {
+              padding-top: 0;
+            }
+          }
+          img {
+            width: 85px;
+            padding: 0px 10px 0px 40px;
+            @media screen and (max-width: $movil) {
+              & {
+                padding: 0 30px 0 10px;
+              }
+            }
+          }
+          h2 {
+            font-size: 2.5rem;
+            @media screen and (max-width: $movil) {
+              & {
+                font-size: 1.8rem;
+              }
+            }
+          }
+        }
+        p {
+          width: 70%;
+          margin-left: 135px;
+          @media screen and (max-width: $movil) {
+            & {
+              width: 95%;
+              margin-left: 15px;
+              font-size: 0.9rem;
+            }
+          }
+        }
+        svg {
+          padding: 15px 0px 0px 130px;
+          @media screen and (max-width: $movil) {
+            & {
+              width: 95%;
+              padding: 25px 0 30px 10px;
+            }
+          }
+        }
+
+        .imgDesign {
+          @media screen and (max-width: $movil) {
+            & {
+              justify-content: space-evenly;
+              margin: 30px 0;
+            }
+          }
+          .icons {
+            @include sizeIcons();
+            height: 30px;
+            width: 30px;
+            margin: 5px;
+            @media screen and (max-width: $movil) {
+              & {
+                margin: 0px;
+              }
+            }
+          }
+          /* Diseno */
+          .marvel {
+            background-image: url("./../../assets/img/marvel.svg");
+          }
+          .figma {
+            background-image: url("./../../assets/img/figma.svg");
+          }
+          .adobe {
+            background-image: url("./../../assets/img/adobe.svg");
+          }
+          .react {
+            background-image: url("./../../assets/img/react.svg");
+          }
+          .javascript {
+            background-image: url("./../../assets/img/javascript.svg");
+          }
+          .wordpress {
+            background-image: url("./../../assets/img/wordpress.svg");
+          }
+          .shopify {
+            background-image: url("./../../assets/img/shopify.svg");
+          }
+          .reloj {
+            background-image: url("./../../assets/img/rej.svg");
+          }
+          /* Marketing */
+          .face {
+            background-image: url("./../../assets/img/facebook.svg");
+          }
+          .instagram {
+            background-image: url("./../../assets/img/instagram.svg");
+          }
+          .linkedin {
+            background-image: url("./../../assets/img/linkedin.svg");
+          }
+          .gogle {
+            background-image: url("./../../assets/img/gogle.svg");
+          }
+          .pintirest {
+            background-image: url("./../../assets/img/pinterest.svg");
+          }
+          .twitter {
+            background-image: url("./../../assets/img/twitter.svg");
+          }
+          .youtube {
+            background-image: url("./../../assets/img/youtube.svg");
+          }
+
+          @include acomodo();
+          margin-left: 80px;
+          margin-top: 25px;
+          @media screen and (max-width: $movil) {
+            & {
+              margin-left: 0px;
+            }
+          }
+        }
+        /* icons marketing */
+        .imgMark {
+          display: flex;
+          margin-left: 140px;
+          @media screen and (max-width: $movil) {
+            justify-content: space-around;
+            margin-left: 0;
+          }
+          .icons2 {
+            @include sizeIcons();
+            height: 90px;
+            width: 90px;
+            margin-right: 12px;
+          }
+          .hubspot {
+            background-image: url("./../../assets/img/hubspot.svg");
+          }
+          .campa {
+            background-image: url("./../../assets/img/activecampaign.svg");
+          }
+          .espresso {
+            background-image: url("./../../assets/img/AdEspresso.svg");
+          }
+        }
+        /* icons analysis */
+        .imgAnaly {
+          display: flex;
+          margin-left: 130px;
+          @media screen and (max-width: $movil) {
+            margin-left: 0;
+            justify-content: space-evenly;
+          }
+          .icons3 {
+            @include sizeIcons();
+            height: 80px;
+            width: 80px;
+            margin-right: 15px;
+          }
+          .cyfe {
+            background-image: url("./../../assets/img/cyfe.svg");
+          }
+          .optimize {
+            background-image: url("./../../assets/img/google-optimize.svg");
+            height: 40px;
+            width: 40px;
+            margin-top: 20px;
+          }
+          .excel {
+            background-image: url("./../../assets/img/excel.svg");
+          }
+          .analyt {
+            background-image: url("./../../assets/img/googleAnalytics.svg");
+          }
+        }
+
+        .icons:hover,
+        .icons2:hover,
+        .icons3:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+        }
+      }
+      .column-3 {
+        width: 35%;
+        //border: 3px solid white;
+        @media screen and (max-width: $movil) {
+          & {
+            width: 100%;
+            display: block;
+            padding-bottom: 40px;
+          }
+        }
+        @media screen and (max-width: $movil) {
+          & {
+            width: 100%;
+            display: block;
+          }
+        }
+        .btnQuote {
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          @media screen and (max-width: $movil) {
+            & {
+              display: block;
+              position: absolute;
+              top: -55px;
+              margin-left: 15px;
+              width: 50%;
+            }
+          }
+        }
+        Button {
+          width: 35%;
+          margin-top: 80px;
+          font-weight: 900;
+          @media screen and(max-width: $movil) {
+            & {
+              width: 90%;
+            }
+          }
+        }
+        h2 {
+          font-size: 1.2rem;
+          padding-left: 40px;
+          @media screen and (max-width: $movil) {
+            & {
+              padding-left: 20px;
+            }
+          }
+        }
+        .list {
+          display: flex;
+          @media screen and (max-width: $movil) {
+            & {
+              display: block;
+            }
+          }
+          ul {
+            list-style: none;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 23px;
+            @media screen and (max-width: $movil) {
+              & {
+                padding-left: 20px;
+                font-size: 0.9rem;
+              }
+            }
+          }
+        }
+      }
+      .column-4 {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 15%;
+
+        //border: 3px solid orange;
+        @media screen and (max-width: $movil) {
+          & {
+            justify-content: flex-end;
+            width: 100%;
+            padding-top: 150px;
+            //position: absolute;
+          }
+        }
+        .next {
+          display: flex;
+          cursor: pointer;
+          .txtMov {
+            display: none;
+          }
+          @media screen and (max-width: $movil) {
+            .txtOrg {
+              display: none;
+            }
+            .txtMov {
+              display: block;
+              margin-top: 250px;
+            }
+          }
+        }
+        .ret {
+          margin-left: 110px;
+        }
+        .img {
+          /* margin-top: 240px; */
+          padding-left: 5px;
+          width: 40px;
+          height: 40px;
+          background-size: contain;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+        .arrow {
+          margin-top: 8px;
+          background-image: url("./../../assets/img/arrowRight.svg");
+          @media screen and(max-width: $movil) {
+            & {
+              width: 30px;
+              margin-right: 10px;
+              margin-left: 10px;
+              background-image: url("./../../assets/img/arrowDown.svg");
+            }
+          }
+        }
+        .return {
+          background-image: url("./../../assets/img/return.svg");
+          @media screen and(max-width: $movil) {
+            & {
+              width: 20px;
+              margin-right: 15px;
+              margin-left: 10px;
+              margin-top: 240px;
+              background-image: url("./../../assets/img/close.svg");
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: $movil) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  *:focus {
+    outline: none;
+  }
+}

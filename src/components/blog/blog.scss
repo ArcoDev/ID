@@ -1,0 +1,82 @@
+@import "./../vars.scss";
+
+.blog-container {
+    width: 95%;
+    margin: 0 auto;
+    .blog-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        .left-side {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            .search-box {
+                display: flex;
+                padding: 15px;
+                margin: 20px;
+                align-items: center;
+                border: 1px solid #6200ee;
+                border-radius: 3.5px;
+                width: 70px;
+                transition: all 0.6s ease-in-out;
+                &.focus {
+                    width: 292px;
+                }
+                .search-input {
+                    input {
+                        border: none;
+                        width: 100%;
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+                }
+            }
+        }
+        .right-side {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            .rounded-div {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                background-color: #2a2fab;
+                border-radius: 30px;
+                padding: 6px 13px;
+                color: white;
+                width: 126px;
+                font-family: $roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                letter-spacing: 0.25px;
+                &:first-of-type {
+                    margin-right: 20px;
+                }
+                .text {
+                    height: min-content;
+                }
+                .order-icon {
+                    display: flex;
+                    align-items: center;
+                    height: min-content;
+                }
+
+                .filter-icon {
+                    display: flex;
+                    align-items: center;
+                    height: min-content;
+                }
+            }
+        }
+    }
+
+    .posts-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
