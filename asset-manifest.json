@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ID/static/css/main.74398775.chunk.css",
-    "main.js": "/ID/static/js/main.14cc884a.chunk.js",
-    "main.js.map": "/ID/static/js/main.14cc884a.chunk.js.map",
-    "runtime-main.js": "/ID/static/js/runtime-main.1c6187c4.js",
-    "runtime-main.js.map": "/ID/static/js/runtime-main.1c6187c4.js.map",
-    "static/js/2.3e2a5588.chunk.js": "/ID/static/js/2.3e2a5588.chunk.js",
-    "static/js/2.3e2a5588.chunk.js.map": "/ID/static/js/2.3e2a5588.chunk.js.map",
-    "static/js/3.6363238c.chunk.js": "/ID/static/js/3.6363238c.chunk.js",
-    "static/js/3.6363238c.chunk.js.map": "/ID/static/js/3.6363238c.chunk.js.map",
+    "main.css": "/ID/static/css/main.a1d3f7b2.chunk.css",
+    "main.js": "/ID/static/js/main.6c6b9f52.chunk.js",
+    "main.js.map": "/ID/static/js/main.6c6b9f52.chunk.js.map",
+    "runtime-main.js": "/ID/static/js/runtime-main.92f751d3.js",
+    "runtime-main.js.map": "/ID/static/js/runtime-main.92f751d3.js.map",
+    "static/js/2.c9c8939f.chunk.js": "/ID/static/js/2.c9c8939f.chunk.js",
+    "static/js/2.c9c8939f.chunk.js.map": "/ID/static/js/2.c9c8939f.chunk.js.map",
+    "static/js/3.e363350a.chunk.js": "/ID/static/js/3.e363350a.chunk.js",
+    "static/js/3.e363350a.chunk.js.map": "/ID/static/js/3.e363350a.chunk.js.map",
     "index.html": "/ID/index.html",
-    "static/css/main.74398775.chunk.css.map": "/ID/static/css/main.74398775.chunk.css.map",
-    "static/js/2.3e2a5588.chunk.js.LICENSE.txt": "/ID/static/js/2.3e2a5588.chunk.js.LICENSE.txt",
+    "static/css/main.a1d3f7b2.chunk.css.map": "/ID/static/css/main.a1d3f7b2.chunk.css.map",
+    "static/js/2.c9c8939f.chunk.js.LICENSE.txt": "/ID/static/js/2.c9c8939f.chunk.js.LICENSE.txt",
     "static/media/process.scss": "/ID/static/media/youtube.b93474e9.svg",
     "static/media/Analysis-cuate 1.461a4ab7.svg": "/ID/static/media/Analysis-cuate 1.461a4ab7.svg",
     "static/media/Design tools-cuate 1.c6f2ad3c.svg": "/ID/static/media/Design tools-cuate 1.c6f2ad3c.svg",
@@ -26,9 +26,9 @@
     "static/media/video.scss": "/ID/static/media/vectorFondo.916b5b57.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1c6187c4.js",
-    "static/js/2.3e2a5588.chunk.js",
-    "static/css/main.74398775.chunk.css",
-    "static/js/main.14cc884a.chunk.js"
+    "static/js/runtime-main.92f751d3.js",
+    "static/js/2.c9c8939f.chunk.js",
+    "static/css/main.a1d3f7b2.chunk.css",
+    "static/js/main.6c6b9f52.chunk.js"
   ]
 }
